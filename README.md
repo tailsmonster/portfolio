@@ -1,4 +1,7 @@
 # My Personal Portfolio Website
+IT'S TIME TO MAKE IT REAL
+
+<!--  
 Virtual buisness card of sorts. Contains important links and a portfolio section that includes a gallary and URLs.
 
 This'll basically be my version of the lab for school, but I wanna make this the coolest website I can, as I want to publish this on the web to have my own website!
@@ -14,6 +17,6 @@ This'll basically be my version of the lab for school, but I wanna make this the
 * Cool, minimalist abstraction design. I had a book I wish I still had to use as a moodboard, but basically I want my signature beige and dark purple, with colors that pop
 
 * retro aestethic, while still very poppy. In other words, cool but not RETRO PETRO. Maybe a better example would be Persona (3) or the classic sonic title cards.
-
+-->
 
 
