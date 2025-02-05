@@ -1,5 +1,6 @@
 # My Personal Portfolio Website
-IT'S TIME TO MAKE IT REAL
+
+rahhh!
 
 <!--  
 Virtual buisness card of sorts. Contains important links and a portfolio section that includes a gallary and URLs.
