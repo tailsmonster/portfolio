@@ -2,11 +2,12 @@ import React from "react";
 
 interface Props {};
 
+
 const ResumePage = (props: Props) => {
+  const resumeURL = "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/resume.pdf"
   return (
     <>
-      <h1>Welcome!</h1>;
-      <embed src="https://drive.google.com/viewerng/viewer?embedded=true&url=http://example.com/the.pdf" width="500" height="375"></embed>
+      <h1>{resumeURL}</h1>;
     </>
   )
   }
