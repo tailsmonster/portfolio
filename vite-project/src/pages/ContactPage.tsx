@@ -4,7 +4,9 @@
 
 const ContactPage = () => {
   return (
-  <h1>Contact Me Here</h1>
+    <>
+      <h1>Contact Me Here</h1>
+    </>
   )
 }
 export default ContactPage
