@@ -1,7 +1,7 @@
 import { Project } from "./Project";
 
 // in a perfect world, we'd have a cool backend to store this in. For now though, this is fine.
-let projects = [];
+let projects:Project[] = [];
 
 const p1 = new Project(
   1,
