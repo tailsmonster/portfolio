@@ -48,7 +48,7 @@ const p4 = new Project(
   "PEAR is an application that helps low-income families find enrichment programs for their children to support their development and close the achievement and play gap.",
   2024,
   "Software",
-  ["Web", "Civic Tech", "Fullstack", "App"],
+  ["Web", "Civic Tech", "Fullstack", "CRUD", "User Authentication","App"],
   ["ReactJS", "Vite", "ExpressJS", "KnexJS", "Sass", ],
   "https://media.discordapp.net/attachments/1373769034754953247/1373769076567969822/1718218203435.jpg?ex=682b9da7&is=682a4c27&hm=fc720a92c6c980b39f7d60fb4866b7c18f4f22b331d164a52b3867c42f20d61a&=&format=webp&width=720&height=487",
   "https://github.com/NCA-Association/PEAR",
@@ -63,7 +63,7 @@ const p5 = new Project(
   "Software",
   ["Desktop", "Solo", "Capstone", "App", "Shaders", "3D", "Low Level"],
   ["C++", "C", "OpenGL", "GLFW", "Visual Studio", ],
-  "https://media.discordapp.net/attachments/1240494000000204801/1353537045238120568/image-45.png?ex=682b2e5b&is=6829dcdb&hm=cef98f21f26a19ed15c04b2daa46336fd322c7c7c464dc01958f025843f88899&=&format=webp&quality=lossless&width=1229&height=691",
+  "https://media.discordapp.net/attachments/1373769034754953247/1374022241490178088/image-45.png?ex=682c896e&is=682b37ee&hm=a61f2037ea89a7b70e86757681d3de9e8e0a31cdd14e099a8cb6694ee23c8f0b&=&format=webp&quality=lossless&width=1229&height=691",
   "https://github.com/tailsmonster/prismGL",
 );
 

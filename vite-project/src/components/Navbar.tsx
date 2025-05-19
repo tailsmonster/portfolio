@@ -21,9 +21,9 @@ const Navbar = () => {
         <section id="collapseMenu" className="mx-5"> 
           <ul className="flex space-x-6 top-0 left-0 font-bold">
             {/* <li><Link to="/blog">Blog</Link></li> */}
-            <li><Link to="/portfolio">Portfolio</Link></li>
-            <li><Link to="/experience">Resume</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/portfolio">portfolio</Link></li>
+            <li><Link to="/experience">experience</Link></li>
+            <li><Link to="/contact">contact</Link></li>
           </ul>
 
         </section>
