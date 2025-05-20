@@ -8,5 +8,4 @@ export class Education {
     public logo: string, //logo of company
     public endDate?: string[], //can be null, incase I dont work there anymore
   ) {}
-
 }

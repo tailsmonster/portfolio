@@ -20,7 +20,7 @@ const HomePage = () => {
           </div>
           <div id="right">
             <div>
-              <img className="m-5 p-3 w-80 h-80 rounded-[100%] object-cover"src="https://media.discordapp.net/attachments/1373769034754953247/1373786987433295942/nastyass.jpg?ex=682bae55&is=682a5cd5&hm=8b062d4b870c48dfcac800a052b54ac052011f00e80e2aec6362e8109b961beb&=&format=webp&width=433&height=648" alt="Faceshot" />
+              <img className="m-5 p-3 w-80 h-80 rounded-[100%] object-cover"src="https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/headshot.jpg" alt="Faceshot" />
             </div>
           </div>
         </div>

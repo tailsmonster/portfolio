@@ -24,7 +24,7 @@ const p2 = new Project(
   "Software",
   ["Web", "Food", "API", "Frontend", "App"],
   ["Javascript", "HTML5", "CSS", "Vite", "RecipeDB"],
-  "https://media.discordapp.net/attachments/1373769034754953247/1373769073506123877/1718217076956.jpg?ex=682b9da6&is=682a4c26&hm=1522e919bf1254187bfcae7b13d1085ea99db0361b034ae4db7ef31cd84f9897&=&format=webp&width=720&height=376",
+  "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/screenshots/recipewizard.jpg",
   "https://github.com/RecipeWizardTeam/Recipe-Wizard",
   "https://recipewizardteam.github.io/Recipe-Wizard/"
 );
@@ -35,9 +35,9 @@ const p3 = new Project(
   "A web application made for those who enjoy looking at pictures of dogs! Users can look at several images from different breeds of dogs. Users can also play a matching memory game!",
   2024,
   "Software",
-  ["Web", "Dogs", "API", "Frontend", "Arch Arch", "App"],
+  ["Web", "Dogs", "API", "Frontend", "ArchArch!!", "App"],
   ["ReactJS", "CSS", "Vite", "DogAPI"],
-  "https://media.discordapp.net/attachments/1373769034754953247/1373769073963434084/1718217731401.jpg?ex=682b9da6&is=682a4c26&hm=ad4e1508f4e5f94e3cb6961e9615081701f067c95fec06107baeae62fa387533&=&format=webp&width=720&height=361",
+  "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/screenshots/breedguesser.jpg",
   "https://teamdogald.github.io/Breed-Guesser/",
   "https://github.com/TeamDogald/Breed-Guesser"
 );
@@ -50,7 +50,7 @@ const p4 = new Project(
   "Software",
   ["Web", "Civic Tech", "Fullstack", "CRUD", "User Authentication","App"],
   ["ReactJS", "Vite", "ExpressJS", "KnexJS", "Sass", ],
-  "https://media.discordapp.net/attachments/1373769034754953247/1373769076567969822/1718218203435.jpg?ex=682b9da7&is=682a4c27&hm=fc720a92c6c980b39f7d60fb4866b7c18f4f22b331d164a52b3867c42f20d61a&=&format=webp&width=720&height=487",
+  "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/screenshots/pear.jpg",
   "https://github.com/NCA-Association/PEAR",
   "https://pear-7ed9.onrender.com/"
 );
@@ -63,7 +63,7 @@ const p5 = new Project(
   "Software",
   ["Desktop", "Solo", "Capstone", "App", "Shaders", "3D", "Low Level"],
   ["C++", "C", "OpenGL", "GLFW", "Visual Studio", ],
-  "https://media.discordapp.net/attachments/1373769034754953247/1374022241490178088/image-45.png?ex=682c896e&is=682b37ee&hm=a61f2037ea89a7b70e86757681d3de9e8e0a31cdd14e099a8cb6694ee23c8f0b&=&format=webp&quality=lossless&width=1229&height=691",
+  "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/screenshots/prismgl.png",
   "https://github.com/tailsmonster/prismGL",
 );
 
