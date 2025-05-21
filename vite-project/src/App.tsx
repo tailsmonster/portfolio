@@ -3,6 +3,7 @@
 import Navbar from './components/Navbar'
 import { Outlet } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop'
+import Footer from './components/Footer'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -11,9 +12,9 @@ function App() {
     <>
       <Navbar />
       <ScrollToTop />
-      <div className='bg-neutral-50'>
+      <div>
         <Outlet />
-
+      <Footer />
       </div>
     </>
   )
