@@ -10,7 +10,10 @@ function App() {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <div className='bg-neutral-50'>
+        <Outlet />
+
+      </div>
     </>
   )
 }

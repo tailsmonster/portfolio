@@ -11,7 +11,7 @@ import { Certification } from "../lib/Certification";
 const experience_content = () => {
   return ( 
     <>
-      <div className="space-y-10">
+      <div className="space-y-10 ">
           {[...experiences].reverse().map((exp: Experience, idx: number) => (
             <div key={idx} className="bg-white rounded-xl shadow-md p-4">
               <div className="flex justify-between items-start">
