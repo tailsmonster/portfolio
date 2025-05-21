@@ -73,7 +73,6 @@ const certification_content = () => {
           key={idx}
           className="bg-white rounded-xl shadow-md transition p-4 flex flex-col items-center text-center"
         >
-          {/* Optional logo display */}
           {cert.logo && (
             <img
               src={cert.logo}
@@ -104,7 +103,7 @@ const certification_content = () => {
 const ExperiencePage = () => {
   return (
     <div className="min-h-screen bg-neutral-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold m-4 text-center font-Inter">Experience</h2>
         {experience_content()}
       </div>
