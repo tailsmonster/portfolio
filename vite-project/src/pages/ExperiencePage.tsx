@@ -108,12 +108,12 @@ const ExperiencePage = () => {
         {experience_content()}
       </div>
 
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold m-4 text-center font-Inter">Education</h2>
         {education_content()}
       </div>
 
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold m-4 text-center font-Inter">Certifications</h2>
         {certification_content()}
       </div>

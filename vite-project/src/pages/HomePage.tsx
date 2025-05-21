@@ -5,11 +5,11 @@
 const HomePage = () => {
   return (
     <>
-      <section id="top" className="max-w-6xl mx-auto pt-10">
+      <section id="top" className="max-w-5xl mx-auto pt-10">
         <div className="flex flex-wrap justify-center items-center">
           <div id="left">
             <div id="landingpage-toptext">
-              <div className="my-3.5 max-w-">
+              <div className="my-3.5">
                 <p className="text-4xl ">hey, i'm</p>
                 <p className="text-5xl font-bold">Nico Aroca</p>
                 <p className="text-4xl">a software engineer from New York</p>
@@ -25,26 +25,50 @@ const HomePage = () => {
           </div>
         </div>
         {/* <div id="spacer" className=""></div> */}
-        { /*<div id="landingpage-buttons" className="flex justify-around">
-          <div>
-          <button type="button" className="text-white bg-blue-700 hover:bg-blue-300  font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 ">Contact Me</button>       
-          <button type="button" className="text-white bg-blue-700 hover:bg-blue-300  font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 ">Projects</button>      
-          <button type="button" className="text-white bg-blue-700 hover:bg-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 ">Experience</button>      
-
+        <div id="landingpage-buttons" className="flex justify-end">
+          <div className="">
+            <a
+              href="https://github.com/tailsmonster"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/assets/github.png"
+                alt="GitHub"
+                className="w-10 h-10"
+              />
+            </a>
+            <a
+              href="https://linkedin.com/in/nicoaroca12"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+                alt="LinkedIn"
+                className=" h-10"
+              />
+            </a>
           </div>
-          <div>
-            <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Github</button>      
-            <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Linkedin</button>      
-
-            <button className="border-4">Linkedin</button>
-            <button className="border-4">Github</button>
-          </div> 
-        </div>  */}
+        </div> 
       </section>
       <div></div>
-      <section></section>
+      <section id="theRest..." className="max-w-4xl mx-auto">
+        <div className="">
+          {/* <h3 className="font-Inter font-semibold text-2xl">who am I?</h3> */}
+          <div>
+            <p className="font-Inter text-xl mx-5 my-2">I am an Ecuadorian-American, born and raised in Brooklyn, New York. I love technology, and in my formative years grew an almost obsessive fascination with game design.</p>
+            <p className="font-Inter text-xl mx-5 my-2">I've been working on projects for almost a decade, and I've been writing code for over 3 years. 
+              I attended The Marcy Lab School, and I came out as a full-stack software engineer.</p>
+          </div>
+        </div>
+        <div>
+          <p>
+            
+          </p>
 
-
+        </div>
+      </section>
     </>
   )
 }
