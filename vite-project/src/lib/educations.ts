@@ -28,17 +28,17 @@ const e2 = new Education (
   ["Sep", "2024"]
 )
 
-const e3 = new Education (
-  3,
-  "Borough of Manhattan Community College",
-  "Cybersecurity",
-  [
-    "Currently participating in BMCC's Cybersecurity Certificate associates program.",
-  ],
-  ["Jan", "2025"],
-  "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/bmcc.jpg?raw=true",
-  ["Now"]
-)
+// const e3 = new Education (
+//   3,
+//   "Borough of Manhattan Community College",
+//   "Cybersecurity",
+//   [
+//     "Currently participating in BMCC's Cybersecurity Certificate associates program.",
+//   ],
+//   ["Jan", "2025"],
+//   "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/bmcc.jpg?raw=true",
+//   ["Now"]
+// )
 educations = [e1,e2,]
 
 export default educations;
