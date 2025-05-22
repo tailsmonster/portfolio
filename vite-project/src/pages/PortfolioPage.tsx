@@ -4,8 +4,8 @@ import { Project } from "../lib/Project"; // assuming Project class is here
 
 const PortfolioPage = () => {
   return (
-    <div className="p-6 mx-auto ">
-      <h2 className="text-4xl font-bold m-4 text-center font-Inter">Software Projects</h2>
+    <div className=" mx-auto ">
+      <h2 className="text-4xl font-bold text-center font-Inter pt-16 pb-12">Software Projects</h2>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 ">
         {[...projects].reverse().map((project: Project) => (
           <div key={project.id} className="bg-white rounded-xl shadow-md p-4 m-7  ">
