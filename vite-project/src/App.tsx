@@ -6,18 +6,17 @@ import ScrollToTop from './components/ScrollToTop'
 import Footer from './components/Footer'
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Navbar />
       <ScrollToTop />
-      <div>
+      <main className="flex-grow">
         <Outlet />
+      </main>
       <Footer />
-      </div>
-    </>
-  )
+    </div>
+  );
 }
+
 
 export default App
