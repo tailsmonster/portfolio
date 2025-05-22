@@ -7,7 +7,8 @@ const ContactPage = () => {
     <>
       <div className="min-h-screen bg-neutral-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold mb-8 text-center">Contact Me</h1>
+          <h2 className="text-4xl font-bold  text-center font-Inter">Contact Me</h2>
+          <p className="textxl font-medium font-Inter text-gray-600 text-center mb-8">Want to get in touch? Use this form to send me an email, and I'll respond as soon as I can!</p>
           <form className="space-y-6" action="https://formspree.io/f/xzzrwnyo" method="POST">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">
