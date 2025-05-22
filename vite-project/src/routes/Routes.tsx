@@ -19,4 +19,8 @@ export const router = createBrowserRouter([
       {path: "*", element: <PageNotFound />},
     ]
   }
-])
+],
+{
+  basename: "/nicoaroca_portfolio",  // <-- Add this here
+}
+)
