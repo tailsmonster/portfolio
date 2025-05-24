@@ -1,8 +1,23 @@
-# My Personal Portfolio Website
+# My Personal Portfolio Website (v1)
 
-rahhh!
+Visit it here → [nicoaroca.onrender.com](https://nicoaroca.onrender.com)
+
+### Built With
+- **React** – UI library for building interactive components
+- **TypeScript** – Typed JavaScript for better structure and maintainability
+- **Vite** – Fast build tool and development server
+- **Tailwind CSS** – Utility-first CSS framework for styling
+- **React Router** – For client-side routing
+
+### To-Do / Future Plans
+- **Create Blog**
+- **Add More Details to Projects**
+- **Create Backend for Site Data**
+- **Overhaul Graphics (Y2k is what I want)**
 
 <!--  
+raah!!
+
 Virtual buisness card of sorts. Contains important links and a portfolio section that includes a gallary and URLs.
 
 This'll basically be my version of the lab for school, but I wanna make this the coolest website I can, as I want to publish this on the web to have my own website!
