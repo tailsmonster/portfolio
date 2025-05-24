@@ -20,7 +20,4 @@ export const router = createBrowserRouter([
     ]
   }
 ],
-{
-  basename: "/nicoaroca_portfolio",  // <-- Add this here
-}
 )
