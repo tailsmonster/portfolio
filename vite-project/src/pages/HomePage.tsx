@@ -34,7 +34,7 @@ const HomePage = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/GITHUB.png?raw=true"
+              src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
               alt="GitHub"
               className="h-10"
             />
