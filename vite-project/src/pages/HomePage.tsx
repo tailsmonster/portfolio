@@ -68,7 +68,7 @@ const HomePage = () => {
           <p>
             I’m especially drawn to projects that involve audio, embedded systems,
             game development, or breathing new life into aging tech. Right now, I’m
-            focused on shipping complete, polished projects — and learning as I go.
+            focused on shipping complete polished projects, and learning as I go.
           </p>
         </div>
       </section>
