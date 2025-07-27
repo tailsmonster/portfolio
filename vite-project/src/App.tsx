@@ -8,17 +8,7 @@ import Footer from './components/Footer'
 // import { useNavigate, useLocation } from 'react-router-dom';
 
 function App() {
-  // const navigate = useNavigate();
-  // const location = useLocation();
 
-  // useEffect(() => {
-  //   const params = new URLSearchParams(window.location.search);
-  //   const redirectPath = params.get('redirect');
-  //   if (redirectPath && location.pathname === '/') {
-  //     // Remove query param and navigate to correct path
-  //     navigate(redirectPath, { replace: true });
-  //   }
-  // }, [navigate, location]);
 
   return (
     <div className="flex flex-col min-h-screen">

@@ -85,11 +85,11 @@ const x5 = new Experience(
   "Part-time Volunteer",
   ["Jul", "2025"],
   "Video Games",
-  "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/google.jpg?raw=true",
+  "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/hti.png?raw=true",
   ["Present"],
 )
 
 
-experiences = [x1,x2,x3,x4, x5];
+experiences = [x1,x2,x3,x4,x5];
 
 export default experiences;
