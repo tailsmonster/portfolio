@@ -1,6 +1,6 @@
 # My Personal Portfolio Website (v1)
 
-Visit it here → [nicoaroca.onrender.com](https://nicoaroca.onrender.com)
+Visit it here → [nicoaroca.dev](https://nicoaroca.dev)
 
 ### Built With
 - **React** – UI library for building interactive components
