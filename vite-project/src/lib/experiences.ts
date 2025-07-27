@@ -57,7 +57,7 @@ const x3 = new Experience(
 
 const x4 = new Experience(
   4,
-  "Google Software Engineering Program Fellow (G-SWEP)",
+  "G-SWEP Fellow (Google Software Engineering Program)",
   "Google",
   [
     "Engaged in weekly 1:1 mentorship to deepen understanding of data structures and algorithms.",
@@ -65,14 +65,31 @@ const x4 = new Experience(
   ],
   "Brooklyn, New York",
   "Remote",
-  "Fellowship",
+  "Mentorship",
   ["Oct", "2024"],
   "Art",
   "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/google.jpg?raw=true",
   ["Dec", "2024"],
 )
 
+const x5 = new Experience(
+  4,
+  "Software Engineer (Volunteer)",
+  "Hedgehog Technical Institute",
+  [
+    "Shipped production-ready landing and event pages using React, TypeScript, and TailwindCSS.",
+    "Customized and maintained phpBB community forums, implementing UI enhancements and supporting user engagement features.",
+  ],
+  "United Kingdom",
+  "Remote",
+  "Part-time Volunteer",
+  ["Jul", "2025"],
+  "Video Games",
+  "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/hti.png?raw=true",
+  ["Present"],
+)
 
-experiences = [x1,x2,x3,x4];
+
+experiences = [x1,x2,x3,x4,x5];
 
 export default experiences;
