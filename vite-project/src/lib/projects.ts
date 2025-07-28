@@ -48,8 +48,8 @@ const p4 = new Project(
   "PEAR is an application that helps low-income families find enrichment programs for their children to support their development and close the achievement and play gap.",
   2024,
   "Software",
-  ["Web", "Civic Tech", "Fullstack", "CRUD", "User Authentication","App"],
-  ["ReactJS", "Vite", "ExpressJS", "KnexJS", "Sass", ],
+  ["Web", "Civic Tech", "Fullstack", "CRUD", "RESTful API", "User Authentication","App"],
+  ["ReactJS", "Vite", "ExpressJS", "KnexJS", "Sass", "PostgreSQL"],
   "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/screenshots/pear.jpg",
   "https://github.com/NCA-Association/PEAR",
   "https://pear-7ed9.onrender.com/"
@@ -65,10 +65,23 @@ const p5 = new Project(
   ["C++", "C", "OpenGL", "GLFW", "Visual Studio", ],
   "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/screenshots/prismgl.png",
   "https://github.com/tailsmonster/prismGL",
+
 );
 
+const p6 = new Project(
+  6,
+  "EventXChange",
+  "A full-stack community platform for hosting and discovering local events with others.",
+  2025,
+  "Software",
+  ["Web", "Hackathon", "Fullstack", "CRUD", "RESTful API", "Agile", "User Authentication", "App", "freeCodeCamp"],
+  ["ReactJS", "Vite", "ExpressJS", "MongoDB", "TailwindCSS", ],
+  "https://raw.githubusercontent.com/freeCodeCamp-2025-Summer-Hackathon/EventXchange/refs/heads/main/client/public/EventXchange.png",
+  "https://github.com/freeCodeCamp-2025-Summer-Hackathon/EventXchange",
+)
 
 
-projects = [p1, p2, p3, p4, p5];
+
+projects = [p1, p2, p3, p4, p5, p6];
 
 export default projects;
