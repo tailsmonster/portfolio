@@ -7,7 +7,7 @@ const ContactPage = () => {
     <>
       <div className=" bg-neutral-50  px-4 sm:px-6 lg:px-8 pt-16 pb-12">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-4xl font-bold  text-center font-Inter">Contact Me</h2>
+          <h2 className="text-4xl font-bold  text-center font-Inter mb-4">Contact Me</h2>
           <p className="textxl font-medium font-Inter text-gray-600 text-center mb-8">Want to get in touch? Use this form to send me an email, and I'll respond as soon as I can!</p>
           <form className="space-y-6" action="https://formspree.io/f/xzzrwnyo" method="POST">
             <div>
@@ -18,7 +18,7 @@ const ContactPage = () => {
                 type="text"
                 id="name"
                 name="name"
-                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500"
+                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blurple focus:border-blurple"
                 required
               />
             </div>
@@ -31,7 +31,7 @@ const ContactPage = () => {
                 type="email"
                 id="email"
                 name="email"
-                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500"
+                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blurple focus:border-blurple"
                 required
               />
             </div>
@@ -44,7 +44,7 @@ const ContactPage = () => {
                 id="message"
                 name="message"
                 rows={5}
-                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blue-500 focus:border-blue-500"
+                className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-blurple focus:border-blurple"
                 required
               />
             </div>
@@ -52,7 +52,7 @@ const ContactPage = () => {
             <div>
               <button
                 type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md transition"
+                className="w-full bg-blurple hover:bg-peenk  text-offwhite font-semibold py-2 px-4 rounded-md transition"
               >
                 Send Message
               </button>

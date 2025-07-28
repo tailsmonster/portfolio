@@ -6,6 +6,10 @@
 @theme {
   --font-modak: "Modak", sans-serif;
   --font-Inter: "Inter", sans-serif;
+
+  --color-blurple: #3a0ca3;
+  --color-offwhite: #fafafa;
+  --color-peenk: #faaafa;
 }
 
 

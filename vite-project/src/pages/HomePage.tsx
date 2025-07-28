@@ -1,8 +1,10 @@
 // import React from "react";
 import projects from "../lib/projects";
 import { Project } from "../lib/Project";
+import { Link } from "react-router-dom";
+import TechStack from "../components/TechStack";
 
-const featuredProjects: Project[] = [projects[3], projects[0], projects[projects.length - 1]];
+const featuredProjects: Project[] = [projects[3], /*projects[5],*/ projects[0], projects[4]];
 
 const HomePage = () => {
   return (
@@ -73,10 +75,18 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Techstack Section */}
+      <section id="tech-stack" className="max-w-5xl mx-auto mt-20 px-4">
+        <h2 className="text-2xl font-bold mb-6">tech stack</h2>
+        <TechStack/>
+      </section>
+
+
+
       {/* Featured Projects Section */}
       <section id="featured-projects" className="max-w-5xl mx-auto mt-20 px-4">
         <h2 className="text-2xl font-bold mb-6">featured projects</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {featuredProjects.map((project) => (
             <div key={project.id} className="bg-white rounded-xl shadow-md p-4">
               <img
@@ -113,6 +123,14 @@ const HomePage = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="mt-8 flex justify-center">
+          <Link
+            to="/portfolio"
+            className="inline-block bg-blurple text-offwhite font-semibold py-2 px-6 rounded-xl hover:bg-peenk transition"
+          >
+            See More
+          </Link>
         </div>
       </section>
     </>
