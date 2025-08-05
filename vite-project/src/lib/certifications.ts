@@ -71,6 +71,15 @@ const certifications: Certification[] = [
     ["Mar", "2025"],
     "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/google.jpg?raw=true",
     ["https://www.coursera.org/account/accomplishments/verify/2JDXHCOVBL3S", "2JDXHCOVBL3S"]
+  ),
+  new Certification(
+    9,
+    "Learn C# Course",
+    "Codecademy",
+    ["C#", ".NET"],
+    ["Jul", "2025"],
+    "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/codecademy.png?raw=true",
+    ["https://www.codecademy.com/profiles/tailsmonster/certificates/65f0ff88f4fc58e0536b3b51648dff24"]
   )
 ];
 

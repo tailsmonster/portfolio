@@ -24,7 +24,7 @@ const p2 = new Project(
   "Software",
   ["Web", "Food", "API", "Frontend", "App"],
   ["Javascript", "HTML5", "CSS", "Vite", "RecipeDB"],
-  "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/screenshots/recipewizard.jpg",
+  "/screenshots/recipewizard.jpg",
   "https://github.com/RecipeWizardTeam/Recipe-Wizard",
   "https://recipewizardteam.github.io/Recipe-Wizard/"
 );
@@ -35,11 +35,11 @@ const p3 = new Project(
   "A web application made for those who enjoy looking at pictures of dogs! Users can look at several images from different breeds of dogs. Users can also play a matching memory game!",
   2024,
   "Software",
-  ["Web", "Dogs", "API", "Frontend", "ArchArch!!", "App"],
+  ["Web", "Dogs", "API", "Frontend", "ArchArch!!", "App", "Games"],
   ["ReactJS", "CSS", "Vite", "DogAPI"],
-  "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/screenshots/breedguesser.jpg",
+  "/screenshots/breedguesser.png",
+  "https://github.com/TeamDogald/Breed-Guesser",
   "https://teamdogald.github.io/Breed-Guesser/",
-  "https://github.com/TeamDogald/Breed-Guesser"
 );
 
 const p4 = new Project(
@@ -50,7 +50,7 @@ const p4 = new Project(
   "Software",
   ["Web", "Civic Tech", "Fullstack", "CRUD", "RESTful API", "User Authentication","App"],
   ["ReactJS", "Vite", "ExpressJS", "KnexJS", "Sass", "PostgreSQL"],
-  "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/screenshots/pear.jpg",
+  "/screenshots/pear.jpg",
   "https://github.com/NCA-Association/PEAR",
   "https://pear-7ed9.onrender.com/"
 );
@@ -63,7 +63,7 @@ const p5 = new Project(
   "Software",
   ["Desktop", "Solo", "Capstone", "App", "Shaders", "3D", "Low Level"],
   ["C++", "C", "OpenGL", "GLFW", "Visual Studio", ],
-  "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/screenshots/prismgl.png",
+  "/screenshots/prismgl.png",
   "https://github.com/tailsmonster/prismGL",
 
 );
