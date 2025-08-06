@@ -32,11 +32,11 @@ const p2 = new Project(
 const p3 = new Project(
   3,
   "Breed Guesser",
-  "A web application made for those who enjoy looking at pictures of dogs! Users can look at several images from different breeds of dogs. Users can also play a matching memory game!",
+  "A fun and interactive app for dog lovers that utilizes the Dog API! Users can test their knowledge of dog breeds in a guessing game, search for specific breeds, and browse random dog pictures! ",
   2024,
   "Software",
-  ["Web", "Dogs", "API", "Frontend", "ArchArch!!", "App", "Games"],
-  ["ReactJS", "CSS", "Vite", "DogAPI"],
+  ["Web", "Dogs", "API", "Frontend", "ArchArch!!", "App", "Games", "Responsive Layout"],
+  ["ReactJS", "CSS", "Vite", "Hash Router", "DogAPI"],
   "/screenshots/breedguesser.png",
   "https://github.com/TeamDogald/Breed-Guesser",
   "https://teamdogald.github.io/Breed-Guesser/",
@@ -52,7 +52,7 @@ const p4 = new Project(
   ["ReactJS", "Vite", "ExpressJS", "KnexJS", "Sass", "PostgreSQL"],
   "/screenshots/pear.jpg",
   "https://github.com/NCA-Association/PEAR",
-  "https://pear-7ed9.onrender.com/"
+  // "https://pear-7ed9.onrender.com/"
 );
 
 const p5 = new Project(
@@ -75,7 +75,7 @@ const p6 = new Project(
   2025,
   "Software",
   ["Web", "Hackathon", "Fullstack", "CRUD", "RESTful API", "Agile", "User Authentication", "App", "freeCodeCamp"],
-  ["ReactJS", "Vite", "ExpressJS", "MongoDB", "TailwindCSS", ],
+  ["ReactJS", "Vite", "ExpressJS", "MongoDB", "Mongoose", "TailwindCSS", ],
   "https://raw.githubusercontent.com/freeCodeCamp-2025-Summer-Hackathon/EventXchange/refs/heads/main/client/public/EventXchange.png",
   "https://github.com/freeCodeCamp-2025-Summer-Hackathon/EventXchange",
 )
