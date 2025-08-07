@@ -1,4 +1,8 @@
 import { Education } from "./Education";
+import uagLogo from '../assets/static/logos/uag.jpg';
+import marcyLogo from '../assets/static/logos/marcy.png';
+// import bmccLogo from '../assets/static/logos/bmcc.jpg'; // if needed
+
 
 let educations:Education[];
 
@@ -11,7 +15,7 @@ const e1 = new Education (
     "Developed expertise in visual design tools like Adobe Photoshop and Adobe Illustrator, through the Digital Design and Animation Pathway.",
   ],
   ["Sep", "2019"],
-  "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/uag.jpg?raw=true",
+  uagLogo,
   ["Jun", "2023"]
 )
 
@@ -24,7 +28,7 @@ const e2 = new Education (
     "Developed proficiency in HTML/CSS, JavaScript, Python, NodeJS, ReactJS, SQL, and AWS.",
   ],
   ["Sep", "2023"],
-  "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/marcy.png?raw=true",
+  marcyLogo,
   ["Sep", "2024"]
 )
 
@@ -36,8 +40,8 @@ const e2 = new Education (
 //     "Currently participating in BMCC's Cybersecurity Certificate associates program.",
 //   ],
 //   ["Jan", "2025"],
-//   "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/bmcc.jpg?raw=true",
-//   ["Now"]
+//   bmccLogo,
+//   ["Present"]
 // )
 educations = [e1,e2,]
 
