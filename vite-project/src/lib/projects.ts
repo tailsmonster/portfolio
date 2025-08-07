@@ -1,6 +1,6 @@
 import { Project } from "./Project";
 
-// in a perfect world, we'd have a cool backend to store this in. For now though, this is fine.
+// in a perfect world, we'd have a cool backend to store this in. For now though, this is fine. <- nevermind this is stupid LOL. 
 let projects:Project[] = [];
 
 const p1 = new Project(
@@ -11,7 +11,7 @@ const p1 = new Project(
   "Software",
   ["Web", "Solo", "Colors", "Local Storage", "Frontend", "App"],
   ["Javascript", "HTML5", "CSS", "Vite", ],
-  "https://github.com/tailsmonster/Palette-Picker/blob/main/screenshot.png?raw=true",
+  "/screenshots/palettepicker.png",
   "https://github.com/tailsmonster/Palette-Picker",
   "https://tailsmonster.github.io/Palette-Picker/"
 );
@@ -76,7 +76,7 @@ const p6 = new Project(
   "Software",
   ["Web", "Hackathon", "Fullstack", "CRUD", "RESTful API", "Agile", "User Authentication", "App", "freeCodeCamp"],
   ["ReactJS", "Vite", "ExpressJS", "MongoDB", "Mongoose", "TailwindCSS", ],
-  "https://raw.githubusercontent.com/freeCodeCamp-2025-Summer-Hackathon/EventXchange/refs/heads/main/client/public/EventXchange.png",
+  "/screenshots/eventxchange.png",
   "https://github.com/freeCodeCamp-2025-Summer-Hackathon/EventXchange",
 )
 

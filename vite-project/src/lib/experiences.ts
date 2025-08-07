@@ -1,5 +1,11 @@
 import { Experience } from "./Experience";
 
+import ascLogo from '../assets/static/logos/asc.png';
+import creativeartworksLogo from '../assets/static/logos/creativeartworks.jpg';
+import marcyLogo from '../assets/static/logos/marcy.png'; 
+import googleLogo from '../assets/static/logos/google.jpg'; 
+import htiLogo from '../assets/static/logos/hti.png'; 
+
 let experiences:Experience[] = [];
 
 const x1 = new Experience(
@@ -15,7 +21,7 @@ const x1 = new Experience(
   "Apprenticeship",
   ["Jul", "2022"],
   "Software Engineering",
-  "https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/logos/asc.png",
+  ascLogo,
   ["Aug", "2022"],
 )
 
@@ -33,7 +39,7 @@ const x2 = new Experience(
   "Internship",
   ["Feb", "2023"],
   "Art",
-  "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/creativeartworks.jpg?raw=true",
+  creativeartworksLogo,
   ["Jun", "2023"],
 )
 
@@ -51,7 +57,7 @@ const x3 = new Experience(
   "Internship",
   ["Jun", "2024"],
   "Art",
-  "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/marcy.png?raw=true",
+  marcyLogo,
   ["Sep", "2024"],
 )
 
@@ -68,7 +74,7 @@ const x4 = new Experience(
   "Mentorship",
   ["Oct", "2024"],
   "Art",
-  "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/google.jpg?raw=true",
+  googleLogo,
   ["Dec", "2024"],
 )
 
@@ -85,7 +91,7 @@ const x5 = new Experience(
   "Part-time Volunteer",
   ["Jul", "2025"],
   "Video Games",
-  "https://github.com/tailsmonster/portfolio/blob/main/vite-project/src/assets/static/logos/hti.png?raw=true",
+  htiLogo,
   ["Present"],
 )
 

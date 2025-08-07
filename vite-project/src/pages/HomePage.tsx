@@ -4,7 +4,7 @@ import { Project } from "../lib/Project";
 import { Link } from "react-router-dom";
 import TechStack from "../components/TechStack";
 
-const featuredProjects: Project[] = [projects[3], /*projects[5],*/ projects[0], projects[4]];
+const featuredProjects: Project[] = [projects[3], /*projects[5],*/ projects[2], projects[4]];
 
 const HomePage = () => {
   return (
@@ -22,7 +22,7 @@ const HomePage = () => {
           <div id="right">
             <img
               className="w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover border-4 border-gray-200"
-              src="https://raw.githubusercontent.com/tailsmonster/portfolio/refs/heads/main/vite-project/src/assets/static/headshot.jpg"
+              src="/images/headshot.jpg"
               alt="Faceshot"
             />
           </div>
