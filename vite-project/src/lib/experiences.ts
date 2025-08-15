@@ -83,8 +83,8 @@ const x5 = new Experience(
   "Software Engineer (Volunteer)",
   "Hedgehog Technical Institute",
   [
-    "Shipped production-ready landing and event pages using React, TypeScript, and TailwindCSS.",
-    "Customized and maintained phpBB community forums, implementing UI enhancements and supporting user engagement features.",
+    "Shipped a production-ready website for a 300+ user community using React, TypeScript, and TailwindCSS.",
+    "Improved and maintained phpBB community forums, introducing UI enhancements and interactive features to increase community activity.",
   ],
   "United Kingdom",
   "Remote",
