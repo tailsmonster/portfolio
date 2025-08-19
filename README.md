@@ -11,8 +11,9 @@ Visit it here → [nicoaroca.dev](https://nicoaroca.dev)
 
 ### To-Do / Future Plans
 - **Create Blog**
+- **Add Resume**
 - **Add More Details to Projects**
-- **Create Backend for Site Data**
+- ~~**Create Backend for Site Data**~~
 - **Overhaul Graphics (Y2k is what I want)**
 
 <!--  
