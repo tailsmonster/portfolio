@@ -50,7 +50,7 @@ const p4 = new Project(
   "Software",
   ["Web", "Civic Tech", "Fullstack", "CRUD", "RESTful API", "User Authentication","App"],
   ["ReactJS", "Vite", "ExpressJS", "KnexJS", "Sass", "PostgreSQL"],
-  "/screenshots/pear.jpg",
+  "/screenshots/pear.png",
   "https://github.com/NCA-Association/PEAR",
   // "https://pear-7ed9.onrender.com/"
 );
