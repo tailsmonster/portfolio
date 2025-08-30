@@ -90,7 +90,7 @@ const certifications: Certification[] = [
     9,
     "Back-End Development with .NET",
     "Microsoft",
-    [".NET Framework", "C#", "ASP.NET", "Application Frameworks", "Networking"],
+    ["C#", "ASP.NET", "Application Frameworks", "JSON", "Back-End Web Development", "Middleware", "REST APIS", ".NET Framework", "Middleware", "Debugging"],
     ["Aug", "2025"],
     microsoftLogo,
     ["https://coursera.org/verify/CE5GCAG14T51", "CE5GCAG14T51"]
