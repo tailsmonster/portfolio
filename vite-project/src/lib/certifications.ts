@@ -4,7 +4,7 @@ import youscienceLogo from '../assets/static/logos/youscience.jpg';
 import codecademyLogo from '../assets/static/logos/codecademy.png';
 import stackrouteLogo from '../assets/static/logos/stackroute.jpg'; 
 import googleLogo from '../assets/static/logos/google.jpg'; 
-// import microsoftLogo from '../assets/static/logos/microsoft.png'; 
+import microsoftLogo from '../assets/static/logos/microsoft.jpg'; 
 
 const certifications: Certification[] = [
   new Certification(
@@ -75,7 +75,7 @@ const certifications: Certification[] = [
     ["Customer Support", "Linux", "Binary Code", "Troubleshooting", "Networking"],
     ["Mar", "2025"],
     googleLogo,
-    ["https://www.coursera.org/account/accomplishments/verify/2JDXHCOVBL3S", "2JDXHCOVBL3S"]
+    ["https://coursera.org/verify/2JDXHCOVBL3S", "2JDXHCOVBL3S"]
   ),
   new Certification(
     9,
@@ -85,6 +85,15 @@ const certifications: Certification[] = [
     ["Jul", "2025"],
     codecademyLogo,
     ["https://www.codecademy.com/profiles/tailsmonster/certificates/65f0ff88f4fc58e0536b3b51648dff24"]
+  ),
+  new Certification(
+    10,
+    "Back-End Development with .NET",
+    "Microsoft",
+    ["C#", "ASP.NET", "Application Frameworks", "JSON", "Back-End Web Development", "Middleware", "REST APIS", ".NET Framework", "Middleware", "Debugging"],
+    ["Aug", "2025"],
+    microsoftLogo,
+    ["https://coursera.org/verify/CE5GCAG14T51", "CE5GCAG14T51"]
   )
 ];
 
