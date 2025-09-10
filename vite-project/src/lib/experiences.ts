@@ -63,7 +63,7 @@ const x3 = new Experience(
 
 const x4 = new Experience(
   4,
-  "G-SWEP Fellow (Google Software Engineering Program)",
+  "G-SWEP Mentee (Google Software Engineering Program)",
   "Google",
   [
     "Engaged in weekly 1:1 mentorship to deepen understanding of data structures and algorithms.",
