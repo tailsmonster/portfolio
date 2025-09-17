@@ -3,6 +3,9 @@ import projects from "../lib/projects";
 import { Project } from "../lib/Project";
 import { Link } from "react-router-dom";
 import TechStack from "../components/TechStack";
+import githubButton from '../assets/static/buttons/GitHub-100000.svg'; 
+import resumeButton from '../assets/static/buttons/RESUME-E53935.svg'; 
+import linkedinButton from '../assets/static/buttons/LinkedIn-0077B5.svg'; 
 
 const featuredProjects: Project[] = [projects[3], /*projects[5],*/ projects[2], projects[4]];
 
@@ -29,30 +32,47 @@ const HomePage = () => {
         </div>
 
         {/* Social Buttons */}
-        <div className="mt-6 flex justify-center gap-6">
-          <a
-            href="https://github.com/tailsmonster"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-              alt="GitHub"
-              className="h-10"
-            />
-          </a>
-          <a
-            href="https://linkedin.com/in/nicoaroca12"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-              alt="LinkedIn"
-              className="h-10"
-            />
-          </a>
-        </div>
+        <li className="mt-6 flex justify-center gap-6">
+          <ul>
+            <a
+              href="https://github.com/tailsmonster"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={ githubButton }
+                alt="GitHub"
+                className="h-10 drop-shadow-md"
+              />
+            </a>
+          </ul>
+          <ul>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={ resumeButton }
+                alt="Resume"
+                className="h-10 drop-shadow-md"
+              />
+            </a>
+          </ul>
+          <ul>
+            <a
+              href="https://linkedin.com/in/nicoaroca12"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={ linkedinButton }
+                alt="LinkedIn"
+                className="h-10 drop-shadow-md"
+              />
+            </a>
+          </ul>
+        </li>
       </section>
 
       {/* About Section */}
@@ -105,7 +125,7 @@ const HomePage = () => {
                     href={project.repo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-blue-600 hover:underline"
+                    className="text-md text-blue-600 hover:underline"
                   >
                     GitHub
                   </a>
@@ -115,9 +135,9 @@ const HomePage = () => {
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-sm text-green-600 hover:underline"
+                    className="text-md text-green-600 hover:underline"
                   >
-                    URL
+                    Live Demo
                   </a>
                 )}
               </div>

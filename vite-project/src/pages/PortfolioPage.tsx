@@ -25,7 +25,7 @@ const PortfolioPage = () => {
                   href={project.repo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-blue-600 hover:underline"
+                  className="text-md text-blue-600 hover:underline"
                 >
                   GitHub
                 </a>
@@ -35,9 +35,9 @@ const PortfolioPage = () => {
                   href={project.demo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm text-green-600 hover:underline"
+                  className="text-md text-green-600 hover:underline"
                 >
-                  URL
+                  Live Demo
                 </a>
               )}
             </div>
