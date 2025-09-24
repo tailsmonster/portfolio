@@ -24,7 +24,7 @@ const HomePage = () => {
           </div>
           <div id="right">
             <img
-              className="w-64 h-64 sm:w-80 sm:h-80 rounded-flil object-cover border-4 border-gray-200"
+              className="w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover border-4 border-gray-200"
               src="/images/headshot.jpg"
               alt="Faceshot"
             />
