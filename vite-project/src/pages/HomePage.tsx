@@ -24,7 +24,7 @@ const HomePage = () => {
           </div>
           <div id="right">
             <img
-              className="w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover border-4 border-gray-200"
+              className="w-64 h-64 sm:w-80 sm:h-80 rounded-flil object-cover border-4 border-gray-200"
               src="/images/headshot.jpg"
               alt="Faceshot"
             />
@@ -32,8 +32,8 @@ const HomePage = () => {
         </div>
 
         {/* Social Buttons */}
-        <li className="mt-6 flex justify-center gap-6">
-          <ul>
+        <ul className="mt-6 flex justify-center gap-6">
+          <li>
             <a
               href="https://github.com/tailsmonster"
               target="_blank"
@@ -45,8 +45,8 @@ const HomePage = () => {
                 className="h-10 drop-shadow-md"
               />
             </a>
-          </ul>
-          <ul>
+          </li>
+          <li>
             <a
               href="/resume.pdf"
               target="_blank"
@@ -58,8 +58,8 @@ const HomePage = () => {
                 className="h-10 drop-shadow-md"
               />
             </a>
-          </ul>
-          <ul>
+          </li>
+          <li>
             <a
               href="https://linkedin.com/in/nicoaroca12"
               target="_blank"
@@ -71,8 +71,8 @@ const HomePage = () => {
                 className="h-10 drop-shadow-md"
               />
             </a>
-          </ul>
-        </li>
+          </li>
+        </ul>
       </section>
 
       {/* About Section */}
