@@ -48,47 +48,65 @@ const x3 = new Experience(
   "Software Engineer Capstone Project Intern",
   "The Marcy Lab School",
   [
-    "Completed a 10-week internship simulating a professional software development environment.",
-    "Spent 4 weeks mastering C++ and OpenGL, followed by 6 weeks developing a basic graphics engine.",
-    `Demonstrated strong commitment, self-management, and a focus on continuous improvement.`,
+    "Built a real-time 3D rendering engine using C++ and OpenGL, designing shaders, buffers, and timing control from scratch.",
+    "Delivered a complete rendering pipeline, from shader architecture to frame timing, under tight project constraints.",
   ],
   "Brooklyn, New York",
   "On-site",
   "Internship",
   ["Jun", "2024"],
-  "Art",
+  "Software Engineering",
   marcyLogo,
   ["Sep", "2024"],
 )
 
 const x4 = new Experience(
   4,
-  "G-SWEP Mentee (Google Software Engineering Program)",
+  "Google Software Engineering Program Fellow",
   "Google",
   [
-    "Engaged in weekly 1:1 mentorship to deepen understanding of data structures and algorithms.",
-    "Strengthened technical problem-solving and interview skills through structured coaching.",
+    "Selected for a competitive Google mentorship and received weekly 1:1 guidance from a Google engineer.",
+    "Worked through DS&A problems involving decomposition, algorithm design, and optimized implementations in JavaScript.",
   ],
   "Brooklyn, New York",
   "Remote",
   "Mentorship",
   ["Oct", "2024"],
-  "Art",
+  "Professional Development",
   googleLogo,
   ["Dec", "2024"],
 )
 
 const x5 = new Experience(
-  4,
-  "Software Engineer (Volunteer)",
+  5,
+  "Career Launch Spark Fellow",
+  "The Marcy Lab School",
+  [
+    "Developing communication and behavioral interviewing skills through structured coaching, practice, and feedback aimed at clarity and confidence.",
+    "Working weekly with a career coach on mock interviews, portfolio refinement, and consistent strategies for presenting technical work and approaching interview problems.",
+  ],
+  "Brooklyn, New York",
+  "Hybrid",
+  "Mentorship",
+  ["Apr", "2025"],
+  "Professional Development",
+  marcyLogo,
+  ["Present"],
+)
+
+const x6 = new Experience(
+  6,
+  "Web Developer (Volunteer)",
   "Hedgehog Technical Institute",
   [
-    "Shipped a production-ready website for a 300+ user community using React, TypeScript, and TailwindCSS.",
-    "Improved and maintained phpBB community forums, introducing UI enhancements and interactive features to increase community activity.",
+    "Supports a 300+ member indie-dev community by engineering and maintaining HTI’s React/TypeScript platform and event systems.",
+    "Rebuilt routing architecture using React Router v7 with nested layouts and page shells, cutting development time for new event pages by ~40%.",
+    "Shipped UI upgrades and phpBB customizations that improved forum usability and boosted community engagement by 15%.",
+    "Partnered with HTI leads to delivering new event pages (CGS, arcINDIE) and improving mobile UX and visual consistency across the platform."
   ],
   "United Kingdom",
   "Remote",
-  "Part-time Volunteer",
+  "Volunteer",
   ["Jul", "2025"],
   "Video Games",
   htiLogo,
@@ -96,6 +114,6 @@ const x5 = new Experience(
 )
 
 
-experiences = [x1,x2,x3,x4,x5];
+experiences = [x1,x2,x3,x4,x5,x6];
 
 export default experiences;

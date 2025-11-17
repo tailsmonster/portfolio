@@ -7,7 +7,7 @@ import githubButton from '../assets/static/buttons/GitHub-100000.svg';
 import resumeButton from '../assets/static/buttons/RESUME-E53935.svg'; 
 import linkedinButton from '../assets/static/buttons/LinkedIn-0077B5.svg'; 
 
-const featuredProjects: Project[] = [projects[3], /*projects[5],*/ projects[2], projects[4]];
+const featuredProjects: Project[] = [projects[3], projects[6], projects[4], /*projects[2]*/];
 
 const HomePage = () => {
   return (
@@ -137,7 +137,17 @@ const HomePage = () => {
                     rel="noopener noreferrer"
                     className="text-md text-green-600 hover:underline"
                   >
-                    Live Demo
+                    Visit Live Demo
+                  </a>
+                )}
+                {project.deployment && (
+                  <a
+                    href={project.deployment}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-md text-red-600 hover:underline"
+                  >
+                    Visit Site
                   </a>
                 )}
               </div>

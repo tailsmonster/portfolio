@@ -10,6 +10,7 @@ export class Project {
     public screenshot: string, //url to screenshot image 
     public repo?: string, // url to repo, can be null
     public demo?: string, //url to website, or whatever is hosted. Can be null
+    public deployment?: string, //url to website, wherever its hosted, this is specifically for if it's yknow, fully shipped and not just a demo
     public wip?: boolean, // are we still working on it
   ) {
     //yay tyoescript
@@ -20,6 +21,10 @@ export class Project {
 
   hasRepo(): boolean {
     return !!this.repo && this.repo.trim() !== "";
+  }
+
+  hasDeployment(): boolean {
+    return !!this.deployment && this.deployment.trim() !== "";
   }
 
   getTagsString(): string {

@@ -24,8 +24,8 @@ const e2 = new Education (
   "The Marcy Lab School",
   "Software Engineering",
   [
-    "Completed 2,000 hours of coursework in web development, CS fundamentals, and leadership development.",
-    "Developed proficiency in HTML/CSS, JavaScript, Python, NodeJS, ReactJS, SQL, and AWS.",
+    "Completed 2,000+ hours of full-stack engineering, computer science, and leadership training.",
+    "Built and deployed multiple production-grade apps using React, Node.js, SQL, and modern web development practices.",
   ],
   ["Sep", "2023"],
   marcyLogo,

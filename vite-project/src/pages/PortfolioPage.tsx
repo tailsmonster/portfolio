@@ -40,6 +40,16 @@ const PortfolioPage = () => {
                   Live Demo
                 </a>
               )}
+              {project.deployment && (
+                <a
+                  href={project.deployment}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-md text-red-600 hover:underline"
+                >
+                  Visit Site
+                </a>
+              )}
             </div>
           </div>
         ))}

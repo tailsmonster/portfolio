@@ -57,7 +57,7 @@ const p4 = new Project(
 
 const p5 = new Project(
   5,
-  "PrismGL",
+  "prismGL",
   "A desktop application that displays a 3D prism using OpenGL.",
   2024,
   "Software",
@@ -78,10 +78,24 @@ const p6 = new Project(
   ["ReactJS", "Vite", "ExpressJS", "MongoDB", "Mongoose", "TailwindCSS", ],
   "/screenshots/eventxchange.png",
   "https://github.com/freeCodeCamp-2025-Summer-Hackathon/EventXchange",
+);
+
+const p7 = new Project(
+  6,
+  "Hedgehog Technical Institute (Website)",
+  "A frontend platform for HTI's 300+ indie-dev community, built with reusable layouts, schema-driven event pages, and a modern routing system that cut new-event dev time by ~40%.",
+  2025,
+  "Software",
+  ["Web", "Community", "Online Events", "Schemas"],
+  ["ReactJS", "TypeScript", "React Router", "TailwindCSS", "Vite", ],
+  "/screenshots/hti.png",
+  undefined,
+  undefined,
+  "https://hedgehogtechnicalinstitute.com/"
 )
 
 
 
-projects = [p1, p2, p3, p4, p5, p6];
+projects = [p1, p2, p3, p4, p5, p6, p7];
 
 export default projects;
