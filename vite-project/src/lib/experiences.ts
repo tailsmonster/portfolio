@@ -127,6 +127,7 @@ const x7 = new Experience (
   "On-site",
   "Full-Time",
   ["Jan", "2026"],
+  "Software Engineering"
   ubsLogo,
   ["Present"],
 )
