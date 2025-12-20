@@ -5,6 +5,7 @@ import creativeartworksLogo from '../assets/static/logos/creativeartworks.jpg';
 import marcyLogo from '../assets/static/logos/marcy.png'; 
 import googleLogo from '../assets/static/logos/google.jpg'; 
 import htiLogo from '../assets/static/logos/hti.png'; 
+import ubsLogo from '../assets/static/logos/hti.png'; 
 
 let experiences:Experience[] = [];
 
@@ -45,7 +46,7 @@ const x2 = new Experience(
 
 const x3 = new Experience(
   3,
-  "Software Engineer Capstone Project Intern",
+  "Software Engineer Intern",
   "The Marcy Lab School",
   [
     "Built a real-time 3D rendering engine using C++ and OpenGL, designing shaders, buffers, and timing control from scratch.",
@@ -91,7 +92,7 @@ const x5 = new Experience(
   ["Apr", "2025"],
   "Professional Development",
   marcyLogo,
-  ["Present"],
+  ["Dec", "2025"],
 )
 
 const x6 = new Experience(
@@ -113,6 +114,16 @@ const x6 = new Experience(
   ["Present"],
 )
 
+const x7 = new Experience (
+  7,
+  "AI Engineer (Talent Accelerator Program)",
+  "UBS",
+  "On-site",
+  "Full-Time",
+  ["Jan", "2026"],
+  ubsLogo,
+  ["Present"],
+)
 
 experiences = [x1,x2,x3,x4,x5,x6];
 
