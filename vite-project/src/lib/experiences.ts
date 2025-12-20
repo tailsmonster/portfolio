@@ -116,10 +116,12 @@ const x6 = new Experience(
 
 const x7 = new Experience (
   7,
-  "AI Engineer (Talent Accelerator Program)",
+  "AI Engineer (Talent Accelerator Program via NPower)",
   "UBS",
   [
-    "",
+    "Developing AI-enabled features for financial services workflows, including integrating LLM-based components into production systems.",
+    "Contributing to scalable interfaces for AI-driven decision systems using modern frameworks and secure cloud infrastructure.",
+    "Collaborating with cross-functional teams to ensure outputs meet rigorous reliability, security, and performance standards.",
   ],
   "Queens, New York",
   "On-site",
