@@ -2,6 +2,8 @@ import { Education } from "./Education";
 import uagLogo from '../assets/static/logos/uag.jpg';
 import marcyLogo from '../assets/static/logos/marcy.png';
 // import bmccLogo from '../assets/static/logos/bmcc.jpg'; // if needed
+import wguLogo from '../assets/static/logos/marcy.png';
+
 
 
 let educations:Education[];
@@ -43,6 +45,18 @@ const e2 = new Education (
 //   bmccLogo,
 //   ["Present"]
 // )
-educations = [e1,e2,]
+
+const e4 = new Education (
+  4,
+  "West Governors University",
+  "Computer Science",
+  [
+    "Currently in the process of obtaining a Bachelors Degree",
+  ],
+  ["Dec", "2025"],
+  wguLogo,
+  ["Present"]
+)
+educations = [e1,e2,e4]
 
 export default educations;
