@@ -2,7 +2,7 @@ import { Education } from "./Education";
 import uagLogo from '../assets/static/logos/uag.jpg';
 import marcyLogo from '../assets/static/logos/marcy.png';
 // import bmccLogo from '../assets/static/logos/bmcc.jpg'; // if needed
-import wguLogo from '../assets/static/logos/marcy.png';
+import wguLogo from '../assets/static/logos/wgu.png';
 
 
 
