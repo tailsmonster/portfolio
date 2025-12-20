@@ -118,6 +118,10 @@ const x7 = new Experience (
   7,
   "AI Engineer (Talent Accelerator Program)",
   "UBS",
+  [
+    "",
+  ],
+  "Queens, New York",
   "On-site",
   "Full-Time",
   ["Jan", "2026"],
