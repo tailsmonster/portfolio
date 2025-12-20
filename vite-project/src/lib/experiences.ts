@@ -5,7 +5,7 @@ import creativeartworksLogo from '../assets/static/logos/creativeartworks.jpg';
 import marcyLogo from '../assets/static/logos/marcy.png'; 
 import googleLogo from '../assets/static/logos/google.jpg'; 
 import htiLogo from '../assets/static/logos/hti.png'; 
-import ubsLogo from '../assets/static/logos/hti.png'; 
+import ubsLogo from '../assets/static/logos/ubs.png'; 
 
 let experiences:Experience[] = [];
 
