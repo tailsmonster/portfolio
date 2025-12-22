@@ -132,6 +132,6 @@ const x7 = new Experience (
   ["Present"],
 )
 
-experiences = [x1,x2,x3,x4,x5,x6,x7];
+experiences = [x1,x2,x3,x4,x5,x6];
 
 export default experiences;
