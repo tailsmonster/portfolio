@@ -5,7 +5,7 @@ import creativeartworksLogo from '../assets/static/logos/creativeartworks.jpg';
 import marcyLogo from '../assets/static/logos/marcy.png'; 
 import googleLogo from '../assets/static/logos/google.jpg'; 
 import htiLogo from '../assets/static/logos/hti.png'; 
-// import ubsLogo from '../assets/static/logos/ubs.png'; 
+import ubsLogo from '../assets/static/logos/ubs.png'; 
 
 let experiences:Experience[] = [];
 
@@ -83,8 +83,8 @@ const x5 = new Experience(
   "Career Launch Spark Fellow",
   "The Marcy Lab School",
   [
-    "Developing communication and behavioral interviewing skills through structured coaching, practice, and feedback aimed at clarity and confidence.",
-    "Working weekly with a career coach on mock interviews, portfolio refinement, and consistent strategies for presenting technical work and approaching interview problems.",
+    "Developed communication and behavioral interviewing skills through structured coaching, practice, and feedback aimed at clarity and confidence.",
+    "Worked weekly with a career coach on mock interviews, portfolio refinement, and consistent strategies for presenting technical work and approaching interview problems.",
   ],
   "Brooklyn, New York",
   "Hybrid",
@@ -114,24 +114,22 @@ const x6 = new Experience(
   ["Present"],
 )
 
-// const x7 = new Experience (
-//   7,
-//   "AI Engineer (Talent Accelerator Program via NPower)",
-//   "UBS",
-//   [
-//     "Developing AI-enabled features for financial services workflows, including integrating LLM-based components into production systems.",
-//     "Contributing to scalable interfaces for AI-driven decision systems using modern frameworks and secure cloud infrastructure.",
-//     "Collaborating with cross-functional teams to ensure outputs meet rigorous reliability, security, and performance standards.",
-//   ],
-//   "Queens, New York",
-//   "On-site",
-//   "Full-Time",
-//   ["Jan", "2026"],
-//   "Software Engineering",
-//   ubsLogo,
-//   ["Present"],
-// )
+const x7 = new Experience (
+  7,
+  "AI Engineer (Talent Accelerator Program via NPower)",
+  "UBS",
+  [
+    "One of 23 members of the first Americas-based cohort of UBS' Talent Accelerator Program"
+  ],
+  "Queens, New York",
+  "On-site",
+  "Full-Time",
+  ["Jan", "2026"],
+  "Software Engineering",
+  ubsLogo,
+  ["Present"],
+)
 
-experiences = [x1,x2,x3,x4,x5,x6];
+experiences = [x1,x2,x3,x4,x5,x6,x7];
 
 export default experiences;

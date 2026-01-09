@@ -1,7 +1,7 @@
 import { Education } from "./Education";
 import uagLogo from '../assets/static/logos/uag.jpg';
 import marcyLogo from '../assets/static/logos/marcy.png';
-// import bmccLogo from '../assets/static/logos/bmcc.jpg'; // if needed
+import bmccLogo from '../assets/static/logos/bmcc.jpg'; // if needed
 import wguLogo from '../assets/static/logos/wgu.png';
 
 
@@ -11,7 +11,7 @@ let educations:Education[];
 const e1 = new Education (
   1,
   "Urban Assembly Gateway School for Technology",
-  "Digital Design / Software Engineering",
+  "Digital Design -> Software Engineering",
   [
     "Acquired proficiency in a range of programming languages, including HTML, CSS, Python, JavaScript, and Java, through the Software Engineering Pathway.",
     "Developed expertise in visual design tools like Adobe Photoshop and Adobe Illustrator, through the Digital Design and Animation Pathway.",
@@ -34,17 +34,17 @@ const e2 = new Education (
   ["Sep", "2024"]
 )
 
-// const e3 = new Education (
-//   3,
-//   "Borough of Manhattan Community College",
-//   "Cybersecurity",
-//   [
-//     "Currently participating in BMCC's Cybersecurity Certificate associates program.",
-//   ],
-//   ["Jan", "2025"],
-//   bmccLogo,
-//   ["Present"]
-// )
+const e3 = new Education (
+  3,
+  "Borough of Manhattan Community College",
+  "Business Management -> Cybersecurity",
+  [
+    "Used the year to build meaningful connections across campus while exploring entrepreneurship and core cybersecurity fundamentals.",
+  ],
+  ["Jan", "2025"],
+  bmccLogo,
+  ["Dec", "2025"]
+)
 
 const e4 = new Education (
   4,
@@ -57,6 +57,6 @@ const e4 = new Education (
   wguLogo,
   ["Present"]
 )
-educations = [e1,e2,e4]
+educations = [e1,e2,e3,e4]
 
 export default educations;
